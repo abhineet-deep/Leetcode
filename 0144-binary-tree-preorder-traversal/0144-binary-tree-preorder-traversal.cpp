@@ -18,7 +18,6 @@ public:
         
         if(root->left) preorder(root->left,vec);
         if(root->right) preorder(root->right,vec);
-        return;
     }
     
     vector<int> preorderTraversal(TreeNode* root) {
