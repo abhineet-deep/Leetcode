@@ -17,8 +17,7 @@ public:
         
         int lh = checkBalanced(root->left,flag);
         int rh = checkBalanced(root->right,flag);
-        
-        cout<<abs(lh-rh)<<endl;
+      
         if(abs(lh-rh) > 1) {
             flag = false;
         }
